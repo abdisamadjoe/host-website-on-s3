@@ -3,7 +3,7 @@
 This project shows you how to use Amazon S3 to host a simple static website. It’s a great way to publish HTML, CSS, and images online — without needing a web server.
 
 Amazon S3 (Simple Storage Service) is part of AWS, and it can store your website files and serve them through a web link. It’s free for small projects if you stay within the AWS Free Tier (5 GB storage for 12 months).  
-📷 `screenshots/aws-free-tier.png`  
+
 <img src="https://github.com/user-attachments/assets/4b9de909-3433-4794-a32f-26d25ac108d5"/>
 
 S3 is also cheap. If we go to the official S3 Pricing page, we can see the storage and bandwidth costs are low for most users.  
