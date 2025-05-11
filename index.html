@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdisamad Yusuf - AWS Journey</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #ffffff;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 20px 40px;
+      background-color: rgba(255, 255, 255, 0.05);
+      display: flex;
+      justify-content: center; /* Center the nav items */
+      gap: 30px;
+      font-weight: 500;
+      z-index: 10;
+      backdrop-filter: blur(10px);
+    }
+
+    header a {
+      color: #ffffff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    header a:hover {
+      color: #00ff9d;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+      background: #1e293b; /* Solid color background */
+    }
+
+    .content {
+      max-width: 800px;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 1.25rem;
+      margin-bottom: 40px;
+      font-weight: 400;
+      color: #cbd5e1;
+    }
+
+    .btn {
+      background: linear-gradient(90deg, #00ff9d, #00d4ff);
+      color: #0f172a;
+      padding: 14px 32px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: box-shadow 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn:hover {
+      box-shadow: 0 8px 20px rgba(0, 255, 157, 0.4);
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </header>
+
+  <main>
+    <div class="content">
+      <h1>I'm Abdisamad Yusuf, and I'm hosting this static site on AWS S3.</h1>
+      <p>I'm just documenting my AWS journey.</p>
+      <button class="btn">Get Started</button>
+    </div>
+  </main>
+</body>
+</html>
