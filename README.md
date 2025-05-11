@@ -19,7 +19,7 @@ First, log in to the AWS Console. In the search bar, type **S3** and click on it
 
 ---
 
-**Create a Bucket**  
+## Create a Bucket  
 Click **Create bucket**.  
 Give it a unique name (like `mystaticwebsite-joe`) — every bucket name must be unique worldwide.  
 
@@ -33,7 +33,7 @@ Just scroll and create. No need to change anything else.
 
 ---
 
-**Turn On Static Website Hosting**  
+## Turn On Static Website Hosting
 Once the bucket is created, go to the **Properties** tab.  
 Scroll down to **Static website hosting** and click **Edit**.  
 
@@ -53,7 +53,7 @@ To fix this, we need to make the bucket public.
 
 ---
 
-**Allow Public Access**  
+## Allow Public Access  
 By default, your bucket blocks public access.  
 
 Go to the **Permissions** tab, find **Block public access**, and click **Edit**.  
@@ -65,7 +65,7 @@ This will make your files viewable on the internet.
 
 ---
 
-**Add a Bucket Policy**  
+## Add a Bucket Policy  
 Next, go to **Bucket Policy** under the Permissions tab.  
 
 Click **Edit** and paste the policy that gives everyone read access to your files.  
@@ -76,7 +76,7 @@ Click **Edit** and paste the policy that gives everyone read access to your file
 
 ---
 
-**Upload Your Website Files**  
+## Upload Your Website Files  
 Now go to the **Objects** tab and click **Upload**.  
 
 Add your `index.html` file and any other files like images or CSS.
@@ -86,7 +86,7 @@ Add your `index.html` file and any other files like images or CSS.
 
 ---
 
-**Open Your Website**  
+## Open Your Website  
 After everything is set up, go back to the **Static website hosting** section.  
 
 You’ll see your **Endpoint** — that’s your live website link.  
@@ -98,7 +98,7 @@ Click it to view your site in the browser.
 ---
 
 
-## Why I Did This
+##  Why I Did This
 
 I made this project to practice using AWS and hosting websites on the cloud.  
 It’s a beginner-friendly way to learn about static web hosting and AWS permissions.
