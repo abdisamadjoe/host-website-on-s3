@@ -12,7 +12,7 @@ S3 is also cheap. If we go to the official S3 Pricing page, we can see the stora
 
 ---
 
-**Open S3 in AWS Console**  
+*Open S3 in AWS Console*  
 First, log in to the AWS Console. In the search bar, type **S3** and click on it.
 
 <img src="https://github.com/user-attachments/assets/ddadddab-c164-43a6-a8c3-4a5a0cb46893"/>
